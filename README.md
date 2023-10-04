@@ -1,24 +1,36 @@
-# tester-frontend-codinggame
 
-## Project setup
-```
-npm install
-```
+# CodingGame PHP
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+This frontend was created in VueJS as to test me backend Laravel application (Product-Category-CategoryProduct)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Remarks
 
-### Lints and fixes files
-```
-npm run lint
+Change "axios" api in "HelloWorld.vue"  if you changed your Laravel hosting server as its for testing i did not use the .env file for my APIs
+ 
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/FaroukChakir/CodingGameFrontend.git
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Go to the project directory
+
+```bash
+  cd CodingGame/CodingGameFrontend
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run serve
+```
